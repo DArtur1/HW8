@@ -18,6 +18,7 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+
     @Test
     void findNewMax() {
         StatisticsService service = new StatisticsService();
